@@ -1,0 +1,12 @@
+POST https://flavioportfolio.app.n8n.cloud/webhook-test/assistente-pessoal
+Content-Type: application/json
+
+{
+    "chatId": "123456789",
+    "mensagem": "Você trabalha com React Native?"
+}
+
+
+
+
+
