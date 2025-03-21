@@ -1,0 +1,21 @@
+{
+	"name": "flavioportfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx concurrently \" cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fau-33/flavioportfolio.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/fau-33/flavioportfolio/issues"
+	},
+	"homepage": "https://github.com/fau-33/flavioportfolio#readme"
+}
