@@ -1,9 +1,9 @@
-import Curriculo from "@/components/curriculo";
-import Principal from "@/components/landing/Principal";
-import { Projetos } from "@/components/projetos/Projetos";
-import Container from "@/components/shared/Container";
 import { obterProjetos } from "@/functions/projetos";
 import { obterTecnologias } from "@/functions/tecnologias";
+import { Projetos } from "@/components/projetos/Projetos";
+import Container from "@/components/shared/Container";
+import Curriculo from "@/components/curriculo";
+import Principal from "@/components/landing/Principal";
 
 export default async function Home() {
 	const tecnologias = await obterTecnologias();
